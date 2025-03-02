@@ -15,4 +15,4 @@ import * as Joi from 'joi';
   ],
   providers: [{ provide: APP_PIPE, useClass: ValidationPipe }],
 })
-export class AppModule {}
+export class AppModule { }

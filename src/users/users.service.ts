@@ -7,7 +7,7 @@ import { UserResponseDto } from './dtos/user-response.dto';
 
 @Injectable()
 export class UserService {
-  private users: UserEntity[] = [];
+  private users: UserEntity[] = [{ id: '1', username: 'test', email: 'EMAIL', country: 'VN', password: '123456' }];
 
   findUsers(): UserEntity[] {
     return this.users;
